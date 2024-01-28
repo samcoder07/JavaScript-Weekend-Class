@@ -42,8 +42,78 @@ console.log(a);
 console.log(PI);
  */
 
+// Interaction : alert, prompt,confirm 
 
+// propmt 
+// let fullName=prompt("Enter your name");
+// let age=prompt("Enter your age");
 
+// console.log(fullName);
+// console.log(age,typeof age);
+
+// type conversion 
+
+// string 
+
+// let str=String(number)
+// console.log(str,typeof str);
+
+// // numeric 
+// let number=10;
+// console.log(number,typeof number);
+
+// let number2=Number(str);
+// console.log(number2,typeof number2);
+// // boolean
+
+// let bool=true;
+// console.log(bool,typeof bool);
+// let str2= String(bool)
+// console.log(str2,typeof str2);
+
+// Boolean conversion 
+// string 
+// let str=""
+// console.log(str,typeof str);
+// let bool=Boolean(number)
+// console.log(bool,typeof bool);
+// // number 
+// let number=""
+// console.log(str,typeof number);
+// let bool=Boolean(number)
+// console.log(bool,typeof bool);
+
+// Basic operators 
+
+// Terms:"unary","binary","operand"
+
+// Increment and decrement operators.
+// Bitwise operators.
+// Assignment operators.
+// Addition 
+// Substraction 
+// multiplication
+// division 
+// reminder
+// exponentiation 
+
+// String concatenation with binary 
+
+// operator precedence 
+
+// number conversion , unary +
+// let str=10;
+// console.log(str, type of str);
+// let number=+10;
+// console.log(number, type of number);
+
+// Increment/decrement 
+// ++
+// --
+
+// Assignment Operators 
+
+// in division it will provide till the questiont will be zero 
 
 
 
