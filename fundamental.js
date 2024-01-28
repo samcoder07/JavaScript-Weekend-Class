@@ -101,6 +101,8 @@ console.log(PI);
 
 // operator precedence 
 
+// make precedence table H.W.
+
 // number conversion , unary +
 // let str=10;
 // console.log(str, type of str);
@@ -109,9 +111,75 @@ console.log(PI);
 
 // Increment/decrement 
 // ++
+// post fix 
+
+let a=10;
+a++;
+console.log(a);
+
+// preifx 
+
+let b=10;
+++b;
+console.log(b);
+
 // --
+// post fix 
+let c=10;
+c--;
+console.log(c);
+
+// prefix 
+let d=10;
+--d;
+console.log(d);
+
+// 22 - 9 + 11 + 10
+// =21+ 10=32
+
 
 // Assignment Operators 
+
+// =
+
+// +=
+// let a=20;
+// let b=30;
+// a += b;
+// console.log(a);
+
+// -=
+
+// *=
+
+// /=
+
+// %=
+
+
+// **=
+
+
+// comparison operators (these are knows as binary operators)
+
+// == equal to 
+
+// === equal value and equal type 
+
+
+// !=
+
+// !== 
+
+// >
+
+// < 
+
+// >= 
+
+// <= 
+
+// ? 
 
 // in division it will provide till the questiont will be zero 
 
