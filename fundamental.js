@@ -184,4 +184,56 @@ console.log(d);
 // in division it will provide till the questiont will be zero 
 
 
+// descision making statement 
 
+// if
+// let num=10;
+// if (num%2==0) {
+//     console.log("number is even");
+// }
+// else
+// let num1=10;
+// if (num1%2==0) {
+//     console.log("number is even");
+// }
+// else{
+//     console.log("number is odd");
+// }
+// else if
+// if (num%2==0 && num%5==0) {
+//     console.log("number is divisible by 2 and 5");
+// }
+// else if (!num %2==0){
+//     console.log("number is divisible by 2");
+// }
+// else if(num%5==0){
+//     console.log("number is divisible by 2 and  5");
+// }
+// else{
+//     console.log("number is not divisible by 2 and 5");
+// }
+
+// nested if else 
+// if (number>0) {
+//     if (number%2===0) {
+//         console.log("number is even");
+//     }
+//     else{
+//         console.log("number us odd");
+//     }
+// }
+
+// else{
+//     console.log("number should be greater than 0");
+// }
+
+// ?
+// let num=18;
+// (num%2===0)?console.log("num is even"):console.log("num is odd");
+
+
+
+// nullish coalescing operator '??'
+
+let price=12.25
+console.log(price??console.log(0));
