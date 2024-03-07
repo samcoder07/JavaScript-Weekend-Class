@@ -338,21 +338,21 @@ console.log(PI);
 
 // literals and properties
 
-// square and brackets 
+// square and brackets
 
-// computed propertiese 
+// computed propertiese
 
-// property value shorthand 
+// property value shorthand
 
-// property names limitaitons 
+// property names limitaitons
 
-// property existence test,"in" operator 
+// property existence test,"in" operator
 
-// the "for..in" loop 
+// the "for..in" loop
 
 
 // literals and properties
-// square and brackets 
+// square and brackets
 // let object={
 // 	name:"sam",
 // 	designation:"IT",
@@ -368,7 +368,7 @@ console.log(PI);
 // object['getdetail']()
 
 
-// computed propertiese 
+// computed propertiese
 // let firstName='sam';
 
 // let object={
@@ -378,7 +378,7 @@ console.log(PI);
 // console.log(object);
 // console.log(object['samarth saluja']);
 
-// property value shorthand 
+// property value shorthand
 // let firstName='sam';
 
 // let object={
@@ -387,7 +387,7 @@ console.log(PI);
 
 // console.log(object);
 
-// property name limitaions 
+// property name limitaions
 
 // let objects={
 // 	$firstName:"$firstName",
@@ -400,7 +400,7 @@ console.log(PI);
 // }
 
 
-// property existence test,"in" property 
+// property existence test,"in" property
 
 // let Object={
 // 	name1:"deepak"
@@ -424,13 +424,13 @@ console.log(PI);
 
 // object references and copying
 
-// comparison by reference 
+// comparison by reference
 
-// closing and merging, object.assign 
+// closing and merging, object.assign
 
-// nestesd cloning 
+// nestesd cloning
 
-// stuctured clone 
+// stuctured clone
 
 
 // primitive datatype data is not shared it's shares address only multi address share
@@ -445,13 +445,13 @@ console.log(PI);
 
 // console.log(array2);
 
-// object cloning 
+// object cloning
 // method 1 assign
 // let obj3 = Object.assign (obj,obj2)
 // console.log(obj);
 // console.log(obj2);
 
-// structured clone 
+// structured clone
 
 // let obj={
 // 	firstName:"sam",
@@ -462,15 +462,15 @@ console.log(PI);
 // console.log(obj);
 // console.log(obj2);
 
-// garbage collection 
+// garbage collection
 
 // object method, "this" represents current object value
 // method shorthand
 // "this" in methods
-// "this" is not bound 
+// "this" is not bound
 // arrow function have no "this"
 
-// this method shorthand  
+// this method shorthand
 // let obj={
 // 	firstName:"John",
 // 	lastName:"Doe",
@@ -484,4 +484,73 @@ console.log(PI);
 // 	}
 // }
 
+
+// function Employee() {
+// 	this.firstName = "sam";
+// 	this.lastNam = "saluja";
+// }
+
+// let emp1 = new Employee()
+// let emp2 = new Employee()
+
+// console.log(emp1, emp2);
+
+// note:- constructor is a built in method which is inside the class defination and class is called when class instance is created
+
+// function Testing() {
+// 	console.log(this);
+// 	console.log(new.target);
+// }
+
+// let t = new Testing();
+// let t1 = Testing();
+
+// function Employee(fname, lname) {
+// 	this.firstName = "sam";
+// 	this.lastName = "saluja";
+
+// 	this.getFullName = function () {
+// 		console.log(this.firstName + " " + this.lastName);
+// 	}
+// }
+
+// let emp1 = new Employee("dheeraj", "singh")
+// let emp2 = new Employee("sam", "singh")
+
+// console.log(emp1);
+// console.log(emp2);
+
+// optional chaining
+// let object = {
+// 	name: {
+// 		firstName: "sam",
+// 		lastName: "saluja"
+// 	},
+// 	nums: [10, 20],
+// 	testing() {
+// 		console.log("testing");
+// 	}
+// }
+
+// // object
+// console.log(object.name?.firstName);
+
+// // array
+// console.log(object.nums?.[0]);
+
+// // functions
+// object.testing?.()
+
+// let sym = Symbol("id");
+
+// let object = {
+// 	[sym]: "sam",
+// 	age: 10
+// }
+
+// console.log(object[key]);
+
+// for (const key in object) {
+// 	console.log(key, object[key]);
+// }
 
