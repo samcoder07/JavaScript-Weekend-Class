@@ -554,3 +554,165 @@ console.log(PI);
 // 	console.log(key, object[key]);
 // }
 
+// topic numbers
+
+// let number = 10;
+
+// binary
+// console.log(number.toString(2));
+// // hexa
+// console.log(number.toString(16));
+
+// console.log(Math.floor(number));
+
+// console.log(Math.ceil(number));
+
+// let number1 = 21.22525252;
+// console.log(number1.toFixed(2));
+
+// imprecise calculation
+
+// console.log(10 / 5 + true - false + (10 * 30));
+
+// isFinite
+
+// let number = null;
+// console.log(isFinite(number));
+
+// true countable value(+ve/-ve) "" boolean []  [number] null
+// false non countable value(Infinity(-ve/+ve)/nan) string
+// [non number type][10, 20] { }
+
+// isNaN
+// let number = {}
+// console.log(isNaN(number));
+
+// false countable value(+ve/-ve)
+// inifinite "" bolean []
+// true non countable value(nan) String
+
+
+// wta to generate random number 4 digits
+
+// const random = Math.random()
+// random;
+
+// const otp = Math.round(random * 9999)
+
+// document.write('Users Otp is\t', otp);
+
+// question
+// wtp to convert lowercase character to uppercase without using any built in method
+
+// Array.of 
+
+// let array = array.of(10, 20, 30)
+// console.log(array);
+
+// Array.from 
+let array1 = array1.from(10, 20, 30)
+console.log(array);
+
+
+// multidimensional  array
+// let array = [
+// 	[
+// 		[10, 20, 30],
+// 		20
+// 	],
+// 	[30, 40]
+// ]
+
+// console.log(array[0][3][5]);
+
+// wtp to conver 2d to 1d array without using any built in method , duplicate value does not allow
+
+
+// splice
+// delete
+// let array = [10, 20, 30, 40, 50]
+// let result = array.splice(2, 2)
+// console.log(array, result);
+
+// update
+// let array = [10, 20, 30, 40]
+// let result = array.splice(2, 2, 300, 400)
+// console.log(array, result);
+
+// // add
+// let result = array.splice(2, 0, 100)
+// console.log(result);
+
+// for Each loop
+// let result = array.forEach((value, index, arr) => {
+// 	console.log(value, index, arr);
+// });
+
+// index / last index of
+
+// let array = [10, 20, 30, 40, 50, 60]
+
+// console.log(array.indexOf(30));
+// console.log(array.lastIndexOf(300));
+
+// console.log(index);
+// array.splice(index, 1)
+
+// find
+
+// let result = array.find((value, index, arr) => {
+// 	if (value === 30) {
+// 		return arr;
+// 	}
+// 	console.log(value, index, arr);
+// })
+
+// console.log(result);
+
+// let employee = [
+// 	{ name: "sam", department: "IT" }
+// ]
+
+// let emp = employee.find((emp) => emp.name === "sam")
+// console.log(emp);
+
+// filter
+// let result = array.filter((value, index, arr) => {
+// 	if (value == 30) {
+// 		return value;
+// 	}
+// 	console.log(value, index, arr);
+// })
+
+// console.log(result);
+
+// let result = array.findIndex((value, index, arr) => {
+// 	if (value === 300) {
+// 		return value
+// 	}
+// })
+
+
+// let result1 = array.findLastIndex((value, index, arr) => {
+// 	if (value === 300) {
+// 		return value
+// 	}
+// })
+
+// Transform an array
+
+// map
+
+// let result = array.map((value, index, arr) => {
+// 	console.log(value, index, arr);
+// })
+// console.log(result);
+
+
+// sort
+
+// array.sort((a, b) => a - b)
+// console.log(array);
+
+// that works in parent array map sort and reverse
+
