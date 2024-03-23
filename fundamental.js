@@ -716,3 +716,28 @@ console.log(array);
 
 // that works in parent array map sort and reverse
 
+// Map and set 
+// map create 
+let map = new Map()
+
+// map.set 
+map.set("firstName", "samarth");
+map.set("lastName", "saluja");
+
+// map.get
+console.log(map.get('firstName'))
+
+// map.has 
+console.log(map.has("lastName"))
+
+// map.delete 
+console.log(map.delete("firstName1"))
+console.log(map)
+
+// map.clear
+map.clear()
+console.log(map)
+
+
+
+// Iteration over Map 
